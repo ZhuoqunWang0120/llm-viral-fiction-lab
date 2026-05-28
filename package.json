@@ -1,0 +1,16 @@
+{
+  "name": "xhs-personal-archive",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local Playwright helper for personally archiving visible RedNote/Xiaohongshu post text.",
+  "type": "commonjs",
+  "scripts": {
+    "login": "node src/login.js",
+    "collect": "node src/collect.js",
+    "convert": "node src/convert.js",
+    "check": "node --check src/login.js && node --check src/collect.js && node --check src/convert.js && node --check src/common.js"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0"
+  }
+}
