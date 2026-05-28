@@ -62,3 +62,20 @@ Out of scope:
 
 Reason:
 The audit recommends “Proceed, but narrow scope.” The dataset has strong coverage for openings, power gaps, canary-lit feeling, emotional progression, platform expression, and coded language, but weak cross-work generalization and incomplete long-form structure.
+
+## Decision: Proceed to Original Concept Pack v0
+
+Based on Single-Work Seed Playbook v0, the project will proceed to a playbook stress test before generating full drafts.
+
+Reason:
+- The playbook has enough mechanism-level structure for concept generation.
+- Direct prose generation may increase overfitting risk.
+- The next key question is whether the playbook can generate original concepts with similar category appeal.
+
+Next artifact:
+- docs/04_experiments/experiment_001_single_work_seed/concept_options.md
+
+Success criteria:
+- Generate 8 distinct original concepts.
+- At least 2 concepts score high on viral potential, originality, and sustainability.
+- Concepts should preserve mechanism-level canary-lit appeal without copying source-specific characters, scenes, or relationships.
