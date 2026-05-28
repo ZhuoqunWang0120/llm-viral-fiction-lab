@@ -38,3 +38,27 @@ Reason:
 
 Workflow:
 sample coverage audit → overfitting audit → playbook → stress test → series bible → MVP drafts → rubric review → retro.
+
+## Decision: Proceed to Single-Work Seed Playbook v0
+
+Based on the sample coverage audit, the current 13-post dataset is strong enough to support a narrow-scope mechanism hypothesis playbook.
+
+We will proceed without collecting more samples for now.
+
+Scope:
+- Single-work mechanism extraction
+- Platform expression observation
+- Character relationship / power-gap framework
+- Emotional-engine hypothesis
+- Initial coded-language glossary
+- Original-generation constraint principles
+
+Out of scope:
+- Genre-wide rulemaking
+- Title formula analysis
+- Cross-author style conclusions
+- Viral-causality claims
+- Complete long-form architecture
+
+Reason:
+The audit recommends “Proceed, but narrow scope.” The dataset has strong coverage for openings, power gaps, canary-lit feeling, emotional progression, platform expression, and coded language, but weak cross-work generalization and incomplete long-form structure.
