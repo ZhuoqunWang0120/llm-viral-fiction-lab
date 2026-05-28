@@ -31,3 +31,21 @@ Output:
 15. Sustainability strategy for future posts
 
 Do not write full posts yet.
+
+## Additional Requirements for Experiment 001 Series Bible v0
+
+The previous mini bible stress test showed romance dilution / genre drift. The next Series Bible must explicitly add:
+
+1. Controlled emotional entanglement layer
+   - emotional tension
+   - ambiguity
+   - jealousy / debt / betrayal / protection / dependence
+   - without making the female lead passive or romance-brained
+
+2. In-series hook line bank
+   - memorable character lines for episode endings or next-post openings
+   - not cold-start titles
+
+3. Romance-dilution prevention checklist
+   - ensure the story does not become only career/resource/network analysis
+   - preserve emotional danger, longing, misrecognition, and relationship stakes

@@ -147,3 +147,19 @@ This is acceptable, but before drafting MVP posts, the next Series Bible v0 shou
 Character-line hooks may be valuable for continuation clicks and chapter-level momentum.
 
 These are different from cold-start titles. Since Experiment 001 does not support title formula analysis, we will track in-series hook lines separately.
+
+## Decision: Use `series_bible_v0_houniao_taitai.md` as Series Bible v0
+
+The original concept pack and mini bible stress test have converged on 《候鸟太太俱乐部》 as the strongest first full series direction for Experiment 001.
+
+We will use `docs/04_experiments/experiment_001_single_work_seed/series_bible_v0_houniao_taitai.md` as the active Series Bible v0 artifact for this experiment.
+
+Reason:
+- It has stronger platform fit than the AI-native special experiment.
+- It better supports female-network and unit-story structures.
+- It is the most practical next step for the first 3-post MVP test.
+- It preserves the playbook’s mechanism-level canary-lit appeal while reducing proxy-bias overfitting.
+
+Follow-up:
+- Use the series bible to draft the first 3-post MVP outline.
+- Keep 《她替老板养云》 as a later special experiment, not the first main path.

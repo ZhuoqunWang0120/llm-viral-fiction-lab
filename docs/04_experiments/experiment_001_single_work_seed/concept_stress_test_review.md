@@ -358,3 +358,19 @@ This suggests that title analysis should be split into:
 4. episode teaser lines.
 
 Experiment 001 still marks title formula as out of scope, but it can begin tracking **in-series hook lines** as a separate mechanism.
+
+---
+
+## Observation: Name Register Mismatch
+
+The generated Chinese full names in the series bible feel too polished and urban-romance-like for a reality-adjacent RedNote/Xiaohongshu gossip style.
+
+For 《候鸟太太俱乐部》, the naming system should feel more like overseas Chinese service work and high-net-worth family circles:
+
+- The female lead may use a common English work name.
+- Clients may know her by English name rather than full Chinese name.
+- 太太们 may be referred to mostly by surname or role: 梁太太, 孟太太, 温太太.
+- Male resource figures should have ordinary names or work titles, not romance-coded names.
+- Names should support documentary realism, not idol-drama polish.
+
+This is a realism/style gotcha and should be addressed before drafting MVP posts.
