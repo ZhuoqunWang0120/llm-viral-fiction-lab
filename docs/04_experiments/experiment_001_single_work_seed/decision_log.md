@@ -90,3 +90,60 @@ Before drafting prose, we will test two contrasting concepts:
 2. 《候鸟太太俱乐部》 — stronger platform fit, long-series potential, female-network structure
 
 The goal is to compare whether the playbook supports both a niche high-originality concept and a broader platform-native concept.
+
+## Decision From Mini Bible Stress Test
+
+Proceed with 《候鸟太太俱乐部》 as the first full Series Bible v0.
+
+Reason:
+
+- It has stronger platform readability.
+- It has lower audience-understanding friction.
+- It supports female-network and unit-story structures.
+- It helps correct the substitute/proxy bias observed in Original Concept Pack v0.
+- It is better suited for the first 3-post MVP test.
+
+Keep 《她替老板养云》 as a later AI-native special experiment.
+
+Reason:
+
+- It has very high originality and strong personal-founder fit.
+- It proves that the playbook can transfer into nontraditional resource systems such as cloud access, data ownership, permissions, authorship, and AI labor.
+- But it has higher writing difficulty and higher audience-understanding friction, so it should not be the first main MVP.
+
+## Decision: Proceed with 《候鸟太太俱乐部》 Series Bible v0
+
+The Two-Concept Mini Bible Stress Test showed that both tested concepts are viable, but they serve different experimental goals.
+
+We will proceed with 《候鸟太太俱乐部》 as the first full Series Bible v0.
+
+Reason:
+- Stronger platform fit
+- Lower reader-friction
+- Higher long-series sustainability
+- Strong female-network structure
+- Better suited for testing a 3-post MVP
+
+We will keep 《她替老板养云》 as a later AI-native special experiment.
+
+Reason:
+- Very high originality
+- Strong personal-founder fit
+- Useful for testing whether technical permissions, cloud resources, data ownership, and authorship can become canary-lit resources
+- Higher writing difficulty and audience-friction
+
+## Observation: Romance Dilution
+
+The mini bible stress test reduced traditional romance / melodrama intensity. The generated structures focused more on resources, professional boundaries, institutional control, and female strategy than on romantic jealousy, obsession, betrayal, or “恨海情天.”
+
+This is acceptable, but before drafting MVP posts, the next Series Bible v0 should explicitly include:
+
+- controlled emotional entanglement layer
+- romance-dilution prevention checklist
+- in-series hook line bank
+
+## Observation: In-Series Hook Lines
+
+Character-line hooks may be valuable for continuation clicks and chapter-level momentum.
+
+These are different from cold-start titles. Since Experiment 001 does not support title formula analysis, we will track in-series hook lines separately.

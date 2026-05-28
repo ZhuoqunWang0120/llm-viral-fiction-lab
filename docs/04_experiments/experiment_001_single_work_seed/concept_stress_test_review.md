@@ -331,3 +331,30 @@ Use the following prompt for the next stage.
 - 推荐哪个先进入 3-post MVP
 - 如果保留另一个，应该如何定位为后续实验
 ```
+
+---
+
+## Observation: In-Series Hook Lines
+
+The mini bible stress test produced several strong character-line hooks that feel clickable for existing readers.
+
+Example:
+
+> 大佬说：这个模型本来就是为你训练的。
+
+These lines may not work as cold-start first-post titles, but they are useful as:
+
+- episode ending hooks,
+- next-post opening lines,
+- in-series teasers,
+- comment-bait lines,
+- chapter-level emotional triggers.
+
+This suggests that title analysis should be split into:
+
+1. cold-start title hooks,
+2. in-series continuation hooks,
+3. ending quote hooks,
+4. episode teaser lines.
+
+Experiment 001 still marks title formula as out of scope, but it can begin tracking **in-series hook lines** as a separate mechanism.
