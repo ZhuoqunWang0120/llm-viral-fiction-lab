@@ -1,23 +1,34 @@
 # Prompt: Rubric Review
 
-Evaluate the draft against the writing rubric.
+## Purpose
 
-Score:
+Evaluate generated drafts and revise them against the playbook.
 
-- Hook clarity
-- Premise freshness
-- Genre fit
-- Emotional engine
-- Character pressure
-- Scene momentum
-- Serial payoff
-- Originality / non-imitation
-- Platform readability
+## Prompt
 
-Output:
+Review the following 3 original draft posts using the writing rubric.
 
-- Scores
-- Strengths
-- Weaknesses
-- Revision priorities
-- Overfitting concerns
+Score each dimension 1–10:
+
+1. Opening hook
+2. Canary-lit atmosphere
+3. Power imbalance clarity
+4. Emotional progression
+5. Character tension
+6. Luxury/class texture
+7. Platform-native readability
+8. Cliffhanger strength
+9. Originality
+10. Distance from source work
+11. Viral potential
+
+Please output:
+
+1. Score table
+2. Biggest strengths
+3. Biggest weaknesses
+4. Which parts feel too generic
+5. Which parts feel too close to the source work
+6. Revision strategy
+7. Revised version
+8. Publish-readiness recommendation

@@ -1,17 +1,29 @@
 # Hypotheses
 
-## H1
+## H1: Single-work seed sufficiency
 
-A small but coherent single-work seed can reveal useful genre mechanics if the analysis separates transferable structure from author-specific phrasing.
+A single high-quality work may be enough for an LLM to extract useful body-text and serialized-story mechanisms.
 
-## H2
+## H2: Sample quality over quantity
 
-Overfitting risk is highest when prompts ask for surface imitation, sentence-level mimicry, or reuse of distinctive scenes.
+A small number of high-signal samples may be more useful than a large low-quality dataset.
 
-## H3
+## H3: Title module limitation
 
-A playbook can be made more transferable by requiring new character premises, new conflicts, and new setting constraints before drafting.
+Because the source posts do not have independent titles, this dataset cannot support title formula analysis.
 
-## H4
+## H4: Overfitting risk
 
-Title formula analysis is not useful for Experiment 001 because the source posts mostly use series name plus number rather than independent titles.
+A single-work dataset may cause the LLM to confuse author-specific choices with transferable genre mechanisms.
+
+## H5: Playbook-first workflow
+
+A playbook-first workflow may produce better original concepts than directly asking the LLM to write fiction.
+
+## H6: Gap-driven data collection
+
+The LLM may be able to diagnose whether more samples are needed and specify the minimal next data request.
+
+## H7: Coded language handling
+
+Platform fiction samples may contain euphemisms, abbreviations, and coded language. A useful LLM workflow should identify these terms, preserve original wording, infer meanings cautiously, and separate reusable platform flavor from risky or non-transferable expressions.

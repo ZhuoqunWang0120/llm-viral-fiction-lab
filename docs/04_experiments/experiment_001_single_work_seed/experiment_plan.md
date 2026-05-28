@@ -1,29 +1,38 @@
-# Experiment 001: Single-Work Seed
+# Experiment 001: Single-Work Seed Dataset
 
-## Goal
+## Research Question
 
-Test whether a small, high-quality single-work seed can produce a transferable genre playbook for original concept generation.
+Can an LLM use a small, high-quality, single-work seed dataset to extract a transferable genre playbook and generate original platform-native fiction concepts?
 
 ## Dataset
 
-Local-only samples from one visible series. Raw text is not committed.
+A small sample from one high-quality serialized work.
 
-## Out of Scope
+## Known Limitations
 
-- Author imitation
-- Source text reproduction
-- Title formula analysis
-- Multi-author generalization
+- Single author
+- Single work
+- No independent post titles
+- Title formula analysis is out of scope
 
-## Steps
+## Success Criteria
 
-1. Build sample inventory.
-2. Audit sample coverage.
-3. Audit overfitting risk.
-4. Extract playbook v1.
-5. Stress-test playbook.
-6. Generate original concept options.
-7. Select one concept.
-8. Generate series bible.
-9. Draft MVP opening.
-10. Evaluate and write retro.
+### Playbook success
+
+- Explains why the sample works without simply summarizing plot
+- Separates transferable mechanisms from source-work-specific features
+- Marks title formula as out of scope
+- Produces useful writing rubric
+- Generates multiple distinct original concepts
+
+### Generation success
+
+- Generated concepts have same genre flavor
+- Concepts are not direct variants of the source work
+- First 3 draft posts have strong opening hooks, emotional progression, and cliffhangers
+
+### Experiment success
+
+- We learn whether single-work seed is sufficient
+- We learn whether more data is needed
+- We produce reusable prompts and SOPs

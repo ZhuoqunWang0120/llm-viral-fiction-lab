@@ -1,19 +1,29 @@
 # Prompt: Overfitting Risk Audit
 
-You are reviewing a genre-playbook experiment for overfitting risk.
+## Purpose
 
-Assess whether the proposed analysis or generation plan depends too heavily on:
+Identify which findings may be too specific to the source work or author.
 
-- Specific wording
-- Specific scenes
-- Specific character names
-- Specific relationship dynamics unique to the source
-- Source chronology
-- Repeated source phrases
+## Prompt
 
-Output:
+Based on the provided single-work seed dataset, perform an overfitting risk audit.
 
-- High-risk elements to exclude
-- Transferable elements that are safe to keep
-- Rewrite instructions to make the playbook more original
-- Red lines for generation prompts
+The goal is to separate:
+
+1. Transferable genre mechanisms
+2. Platform-native writing patterns
+3. Work-specific plot choices
+4. Author-specific expression or personal style
+5. Elements that should not be copied
+
+Please output:
+
+- Transferable mechanisms
+- Likely source-work-specific features
+- Likely author-specific features
+- Elements that must be avoided in original generation
+- Risks if we generate directly from this dataset
+- How to constrain future prompts to avoid imitation
+- Whether additional cross-work samples are needed
+
+Do not write fiction yet.

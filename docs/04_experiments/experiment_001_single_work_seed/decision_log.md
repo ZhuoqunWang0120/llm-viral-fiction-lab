@@ -1,19 +1,40 @@
 # Decision Log
 
-Use this file to record experiment decisions, assumptions, and reversals. Do not paste raw source text here.
+## Decision 001: Use single-work seed first
 
-| Date | Decision | Reason | Alternatives Considered | Follow-up |
-|---|---|---|---|---|
-| 2026-05-28 | Start Experiment 001 with a single-work seed dataset. | The first goal is to test whether a small, coherent seed can produce a transferable genre playbook. | Wait for a multi-author dataset; collect the full series first. | Run coverage and overfitting audits before drafting. |
+We will start with one high-quality work instead of collecting many works.
 
-## Open Decisions
+Reason:
+- The work is clearly stronger than alternatives.
+- The experiment specifically tests whether a single strong seed is enough.
+- This keeps data collection small and focused.
 
-- Minimum sample size for the first playbook extraction.
-- Whether to use only precise index-mode samples or include sample-mode results.
-- Which generated concept should become the MVP draft seed.
+Risk:
+- Overfitting to one author/work.
 
-## Boundaries
+Mitigation:
+- Add overfitting risk audit.
+- Require the LLM to separate transferable mechanisms from author-specific features.
+- Add cross-work data only if needed.
 
-- Study genre/category mechanics, not author imitation.
-- Do not reproduce source text.
-- Do not commit raw samples or local collection outputs.
+## Decision 002: Mark title formula as out of scope
+
+The source posts mostly use series name + number, not independent titles.
+
+Reason:
+- The dataset cannot support title formula analysis.
+
+Mitigation:
+- Treat title generation as a separate future experiment.
+- Collect title-only samples only if title clickability becomes a bottleneck.
+
+## Decision 003: Playbook before drafting
+
+We will not ask the LLM to directly write fiction first.
+
+Reason:
+- The project goal is reusable workflow and best practices.
+- Playbook is more important than one viral post.
+
+Workflow:
+sample coverage audit → overfitting audit → playbook → stress test → series bible → MVP drafts → rubric review → retro.
