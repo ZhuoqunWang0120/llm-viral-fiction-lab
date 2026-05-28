@@ -805,3 +805,7 @@ Original Concept Pack v0
 - Next update should happen after adding either:
   - 5–10 more samples from the same work, especially opening and continuous middle chapters, or
   - 5–8 samples from another comparable work/author.
+
+## Known Generation Bias from Concept Pack v0
+
+The first concept generation test tends to map canary-lit mechanisms into “substitute/proxy/display object” structures. This is useful but may narrow the creative space. Future prompts should explicitly request multiple canary mechanism variants.

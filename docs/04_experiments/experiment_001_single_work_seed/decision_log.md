@@ -79,3 +79,14 @@ Success criteria:
 - Generate 8 distinct original concepts.
 - At least 2 concepts score high on viral potential, originality, and sustainability.
 - Concepts should preserve mechanism-level canary-lit appeal without copying source-specific characters, scenes, or relationships.
+
+## Decision: Run two-concept mini bible stress test
+
+Original Concept Pack v0 shows sufficient diversity and originality, but also reveals a substitute/proxy bias.
+
+Before drafting prose, we will test two contrasting concepts:
+
+1. 《她替老板养云》 — high originality, AI-native, strong personal fit
+2. 《候鸟太太俱乐部》 — stronger platform fit, long-series potential, female-network structure
+
+The goal is to compare whether the playbook supports both a niche high-originality concept and a broader platform-native concept.
